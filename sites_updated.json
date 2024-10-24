@@ -1,0 +1,21 @@
+{
+  "CNN": {
+    "domain": "cnn.com",
+    "allow_cookies": 1,
+    "cs_code": "[{\"cond\":\"div[data-component-id='subwall']\", \"rm_elem\":1}, {\"cond\":\"html\", \"set_attrib\":\"style|overflow:auto !important;\"}]",
+    "upd_version": "3.8.6.4"
+  },
+  "Forbes.ua": {
+    "domain": "forbes.ua",
+    "allow_cookies": 1,
+    "ld_json": "div.js-closed-part|div.c-post-text",
+    "upd_version": "3.8.6.6"
+  },
+  "Nikkei Asian Review": {
+    "domain": "asia.nikkei.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "ld_json_next": "div#paywall-offer|div#article-body-preview>div|",
+    "upd_version": "3.8.7.1"
+  }
+}
